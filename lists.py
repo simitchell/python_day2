@@ -1,12 +1,12 @@
-# def reverseList():
+# def reverse_list():
 #     numbers = [1, 2, 3, 4, 5, 99, 2600, 300]
 #     print(numbers)
 #     reversed_list = reversed(numbers)
 #     print(list(reversed_list))
 
-# reverseList()
+# reverse_list()
 
-# def stringToList():
+# def string_to_list():
 #     myString = "teriyaki"
 #     # print(myString)
 #     myList = []
@@ -16,10 +16,17 @@
 #     reversed_list = reversed(myList)
 #     print(list(reversed_list))
 
-# stringToList()
+# string_to_list()
 
-def gNr():
+def g_n_r():
     band = ["Axl", "Slash", "Izzy", "Duff", "Steven"]
+    audition = input('Who do you think should be in the band? \n')
+    if audition in band:
+        band.remove(audition)
+        print('{} screwed up.  They are fired!\n'.format(audition))
+    else:
+        band.append("{}".format(audition))
+        print("{} just got hired by the band.\n".format(audition))
     print(band)
 
-gNr()
+g_n_r()
