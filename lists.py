@@ -6,14 +6,14 @@
 
 # reverseList()
 
-def stringToList():
-    myString = "teriyaki"
-    # print(myString)
-    myList = []
-    for char in myString:
-        myList.append(char)
-    print(myList)
-    reversed_list = reversed(myList)
-    print(list(reversed_list))
+# def stringToList():
+#     myString = "teriyaki"
+#     # print(myString)
+#     myList = []
+#     for char in myString:
+#         myList.append(char)
+#     print(myList)
+#     reversed_list = reversed(myList)
+#     print(list(reversed_list))
 
-stringToList()
+# stringToList()
