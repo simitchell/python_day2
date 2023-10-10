@@ -11,8 +11,7 @@ def guessing_game():
                 print("You're out of range, try again homie.")
                 guess = int(input('Select a number between 1 and 10\n'))
             else:
-                print("Try Again womp")
-                print("The magic number was {}.\n".format(magic_number))
+                print("Try Again womp\n")
                 guess = int(input('Select a number between 1 and 10\n'))
         print("Are you a MIND READER??")
         print("The magic number was {}.\n".format(magic_number))

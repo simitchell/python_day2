@@ -17,3 +17,9 @@
 #     print(list(reversed_list))
 
 # stringToList()
+
+def gNr():
+    band = ["Axl", "Slash", "Izzy", "Duff", "Steven"]
+    print(band)
+
+gNr()
