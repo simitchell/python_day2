@@ -4,7 +4,7 @@ def guessing_game():
     
     try:
         guess = int(input('Select a number between 1 and 10\n'))
-        magic_number = random.randrange(1, 10, 1)
+        magic_number = random.randrange(1, 12, 1)
         print("Your number is {}.".format(guess))
         while guess != magic_number:
             if (guess > 12 ):
